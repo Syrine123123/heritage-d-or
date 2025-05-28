@@ -577,8 +577,8 @@ img, .step-img img {
 }
 
 .ingredient-img-placeholder {
-    width: 180px;      /* was 80px */
-    height: 180px;     /* was 80px */
+    width: 160px;
+    height: 130px;
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 1.1rem;
@@ -1143,7 +1143,7 @@ img, .step-img img {
 }
 .step-img img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
     object-fit: cover;
     display: block;
@@ -1435,7 +1435,7 @@ img, .step-img img {
 }
 
 /* Responsive: Images always scale */
-img, .step-img img, .type-img img, .about-img, .history-img {
+img,  .about-img, .history-img {
     max-width: 35%;
     height: auto;
     display: block;
